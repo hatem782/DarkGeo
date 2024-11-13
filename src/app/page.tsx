@@ -4,9 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full h-full relative">
-      <Border size={2} height={18} width={49} className="m-[1vw]"></Border>
+      <Border size={2} height={18} width={49} className="m-[1vw]">
+        <div className="w-full h-full"></div>
+      </Border>
       <Wall className="translate-y-[0.4vw] absolute bottom-0 right-0">
-        <div className="w-full h-full bg-red-600"></div>
+        <div className="w-full h-full"></div>
       </Wall>
     </div>
   );
